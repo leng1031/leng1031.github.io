@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio Website</title>
+    <meta name="Viewport" content="width=device-width,initial-scale=1.0">
+    <!-- main css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Personal portfolio</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+<!--header section start-->
+<header class="header">
+    <div class="user">
+        <img src="img/profile-pic.jpg" alt="">
+        <h3>Xu Leng</h3>
+        <p>full stack developer</p>
+    </div>
+
+    <nav class="navbar">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+</header>
+<!--header section end-->
+
+<!--menu -->
+<div id="menu-btn" class="fas fa-bars"></div>
+
+<!--theme toggler-->
+<div id="theme-toggler" class="fas fa-moon"></div>
+
+<!--home section start-->
+<section class="home" id="home">
+    <div class="content">
+        <h3>Xu Leng</h3>
+        <p>I am a Full-stack developer</p>
+        <a href="#" class="btn">download CV</a>
+    </div>
+
+    <div class="share">
+        <a href="https://www.linkedin.com/in/xu-leng-891553192" class="fab fa-linkedin"></a>
+        <a href="https://www.pinterest.com/xuleng90" class="fab fa-pinterest"></a>
+    </div>
+</section>
+<!--home section end-->
+
+<!--about section start-->
+<section class="about" id="about">
+    <h1 class="heading"><span>about</span> me</h1>
+    <div class="row">
+        <div class="box-container">
+            <div class="box">
+                <h3>Summary</h3>
+                <p>Skilled Developer with a gift for prioritizing and managing several milestones of various projects simultaneously.
+                    Talented at code writing, using version control systems and testing. Detail-oriented to write detailed technical specifications.</p>
+            </div>
+            <div class="box">
+                <h3>Experiences</h3>
+                <p>Participated in the Software Development Life Cycle (SDLC) of 10+ projects in ateam of 8 members</p>
+                <p>Wrote and reviewed design proposals of each tools which can reduce their
+                    unnecessary working time by gathering and analyzing customer business requirement</p>
+                <p>Developed eight more C/S tools (HP Competition Tool, KSB HW Report, PCCLRename,
+                    ESL-Am Autosync Error Extract, Bulk Upload Improver using WinForms on Visual Studio 2008</p>
+                <p>Created Profiling Dashboard Tool and So One-Ops Tracker tools using VBA.</p>
+                <p>Prepared testing to ensure new features added did not have bugs</p>
+                <p>Get the raw data from HP website then make them as a report through VBA orExcel.</p>
+            </div>
+            <div class="content">
+                <h3>My name is <span>Xu Leng</span></h3>
+                <a href="#contact" class="btn">contact me</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="progress">
+            <h3>Java <span>85%</span></h3>
+            <div class="bar bar-1-1"><span></span></div>
+            <h3>JavaScript <span>90%</span></h3>
+            <div class="bar bar-1-2"><span></span></div>
+            <h3>CSS <span>75%</span></h3>
+            <div class="bar bar-1-3"><span></span></div>
+            <h3>HTML <span>90%</span></h3>
+            <div class="bar bar-1-4"><span></span></div>
+            <h3>C# <span>85%</span></h3>
+            <div class="bar bar-1-5"><span></span></div>
+            <h3>MySQL <span>80%</span></h3>
+            <div class="bar bar-1-6"><span></span></div>
+        </div>
+    </div>
+
+</section>
+<!--about section end-->
+
+<!--projects section start-->
+<section class="projects" id="projects">
+    <h1 class="heading"> my <span>projects</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-code"></i>
+            <h3>Restaurant builder</h3>
+            <p>using Java Springboot as backendand reactJS, boostrap, css as front end in a team of 4 members</p>
+            <p>Implemented basic data operations – CRUD (Create, Read, Update, Delete) usingJPA</p>
+            <p>Built application security roles for different system operations and resources usingJava EE Security</p>
+            <p>Design the database</p>
+            <p>Meeting with team member ensure that the project can be proceed smoothly</p>
+            <p>Agile Software development.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-paint-brush"></i>
+            <h3>Reddit Reader</h3>
+            <p>Java, HTML on the platform NetBeans11 independently</p>
+            <p>Analyzed existing UML class diagrams and sequence diagrams of the project</p>
+            <p>Drew a sequence diagram by analyzing image view logic</p>
+            <p>Implemented each DAL (Data Access Layer) classes by inheriting Generic DAL</p>
+            <p>Created Servlets to receive and respond to requests from web clients</p>
+            <p>Implemented DAO (Data Access Object) with DAO design Pattern using Hibernate</p>
+            <p>Created Junit test case to test edge, normal, and invalid states for all methods</p>
+            <p>Provided proper documentation with meaningful definition and purpose of allmethods using JavaDoc</p>
+        </div>
+    </div>
+</section>
+<!--projects section end-->
+
+<!--contact section start-->
+<section class="contact" id="contact">
+    <h1 class="heading"><span>Contact</span> Me </h1>
+    <form action="">
+        <input type="text" class="box" placeholder="Your Name">
+        <input type="email" class="box" placeholder="Your Email">
+        <input type="text" class="box" placeholder="Subject">
+        <textarea class="box" name="" placeholder="Your message" cols="30" rows="10"></textarea>
+        <input type="submit" value="Send message" class="btn">
+    </form>
+</section>
+<!--contact section end-->
+
+
+<div class="credits">developed by <span>Xu Leng</span></div>
+
+
+<!-- js file link-->
+<script src="js/script.js"></script>
+</body>
+
+</html>
