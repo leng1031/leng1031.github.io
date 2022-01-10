@@ -17,7 +17,7 @@
 <!--header section start-->
 <header class="header">
     <div class="user">
-        <img src="img/profile-pic.jpg" alt="">
+<!--        <img src="img/profile-pic.jpg" alt="">-->
         <h3>Xu Leng</h3>
         <p>full stack developer</p>
     </div>
@@ -43,7 +43,7 @@
     <div class="content">
         <h3>Xu Leng</h3>
         <p>I am a Full-stack developer</p>
-        <a href="#" class="btn">download CV</a>
+        <a href="https://drive.google.com/file/d/1Ze04jD09f3DUcy8m-5WxsjcNjL-pRUD_/view?usp=sharing" class="btn" download="Xu_Leng_Resume ">download CV</a>
     </div>
 
     <div class="share">
@@ -134,11 +134,11 @@
 <!--contact section start-->
 <section class="contact" id="contact">
     <h1 class="heading"><span>Contact</span> Me </h1>
-    <form action="">
-        <input type="text" class="box" placeholder="Your Name">
-        <input type="email" class="box" placeholder="Your Email">
-        <input type="text" class="box" placeholder="Subject">
-        <textarea class="box" name="" placeholder="Your message" cols="30" rows="10"></textarea>
+    <form action="" id="myForm">
+        <input name="to" id="formTo" type="email" class="box" value="xu.leng90@gmail.com" readonly>
+        <input name="name" id="formName" type="text" class="box" placeholder="Your Name" required>
+        <input name="subject" id="formSubject" type="text" class="box" placeholder="Subject" required>
+        <textarea name="message" id="formMessage" class="box" name="" placeholder="Your message" cols="30" rows="10" required></textarea>
         <input type="submit" value="Send message" class="btn">
     </form>
 </section>
